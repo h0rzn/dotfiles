@@ -1,0 +1,55 @@
+[colors]
+bg = #1E2224
+fg = #98C7D8
+
+[bar/main]
+width = 25%
+height = 45
+
+background = ${colors.bg}
+foreground = ${colors.fg}
+
+padding-right = 2
+padding-top = 2
+
+offset-x = 37.5%
+
+modules-center = date
+modules-left = bspwm
+modules-right = battery
+
+font-0 = "Hack-Regular:size=12"
+font-1 = "Siji:pixelsize=10"
+
+[module/date]
+type = internal/date
+interval = 5
+date-alt = "%d.%m.%y"
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+label = %date% %time%
+
+[module/bspwm]
+type = internal/bspwm
+enable-click = true
+
+label-focused = " %index% "
+label-focused-foreground = ${colors.bg}
+label-focused-background = ${colors.fg}
+
+label-empty = 
+label-occupied = " %index% "
+
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = ACAD
+full-at = 99
+
+format-charging = <label-charging>
+label-charging = %percentage%%
+
+format-discharging = <label-discharging>
+label-discharging = %percentage%%
