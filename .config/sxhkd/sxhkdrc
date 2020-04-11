@@ -10,25 +10,10 @@ super + Return
 super + @space
 	dmenu_run
 
-# browser: brave
-super + F1
-	brave
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
 
-# mapping media keys 
-# volume with amixer
-# audio mute
-XF86AudioMute
-	~/coding/bash-scripts/amixer-toggle-mute.sh
-# volume -
-XF86AudioLowerVolume
-	amixer -c 0 sset Master 1dB- & volumeIndicator.sh
-# volume +
-XF86AudioRaiseVolume
-	amixer -c 0 sset Master 1dB+ & volumeIndicator.sh
 #
 # bspwm hotkeys
 #
