@@ -1,0 +1,15 @@
+                 \e{lightblue}-@\e{reset}
+                \e{lightblue}.##@\e{reset}
+               \e{lightblue}.####@\e{reset}
+               \e{lightblue}@#####@\e{reset}
+             \e{lightblue}. *######@\e{reset}
+            \e{lightblue}.##@o@#####@\e{reset}                   \e{lightblue}\S{PRETTY_NAME} \e{reset}\m \r (\e{lightblue}\l\e{reset})
+           \e{lightblue}/############@\e{reset}                  \e{lightblue}Date \e{reset}\t  \d
+          \e{lightblue}/##############@\e{reset}                 \e{lightblue}Logged in users \e{reset}\u
+         \e{lightblue}@######@**%######@\e{reset}                \e{lightblue}Host \e{reset}\n 
+        \e{lightblue}@######`     %#####o\e{reset}               
+       \e{lightblue}@######@       ######%\e{reset}
+     \e{lightblue}-@#######h       ######@.`\e{reset}
+    \e{lightblue}/#####h**``       `**%@####@\e{reset}
+   \e{lightblue}@H@*`                    `*%#@\e{reset}
+  \e{lightblue}*`                            `*\e{reset}
