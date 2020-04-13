@@ -30,7 +30,6 @@ interval = 5
 date-alt = "%d.%m.%y"
 
 time = %H:%M
-time-alt = %H:%M:%S
 
 label = %date% %time%
 
