@@ -7,7 +7,7 @@ export VISUAL="nvim"
 
 export NNN_USE_EDITOR=1
 
-export PATH="~/.scripts:$PATH"
+export PATH="$HOME/.scripts:$PATH"
 
 
 
