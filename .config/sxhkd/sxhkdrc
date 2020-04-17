@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	dmenu_run -l 10 -fn "FiraCode:regular:pixelsize=15" -h 30 -nb "#1E2224" -nf "#98C7D8" -sb "#98C7D8" -sf "#1E2224"
+	run_dmenu
 
 # make sxhkd reload its configuration files:
 super + Escape
