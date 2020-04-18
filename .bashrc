@@ -16,6 +16,7 @@ export PATH="$HOME/.scripts:$PATH"
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=always'
+alias tree="tree -C"
 alias v='nvim'
 alias n='nnn -e'
 alias where='pwd'
