@@ -6,6 +6,7 @@ export EDITOR="nvim"
 export VISUAL="nvim"
 
 export NNN_USE_EDITOR=1
+export NNN_PLUG="t:treeview"
 
 export PATH="$HOME/.scripts:$PATH"
 
