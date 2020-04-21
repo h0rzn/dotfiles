@@ -3,7 +3,7 @@
 
 [colors]
 bg = #1E2224
-fg = #98C7D8
+fg = #e5a8ef 
 
 [bar/main]
 width = 25%
