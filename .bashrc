@@ -2,8 +2,8 @@
 # ~/.bashrc
 #
 
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="vis"
+export VISUAL="vis"
 
 export NNN_USE_EDITOR=1
 export NNN_PLUG="t:treeview"
@@ -17,7 +17,7 @@ export PATH="$HOME/.scripts:$PATH"
 
 alias ls='ls --color=always'
 alias tree="tree -C"
-alias v='nvim'
+alias v='vis'
 alias n='nnn -e'
 alias where='pwd'
 alias fs='feh --scale-down'
